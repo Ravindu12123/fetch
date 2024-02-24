@@ -19,7 +19,8 @@ axios.get(url)
             let obj = {
                 name: element.name,
                 attributes: element.attribs,
-                children: []
+                children: [],
+                innerText: element.children[0] ? element.children[0].data : null
             };
             
             element.children.forEach(child => {
