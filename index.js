@@ -34,7 +34,7 @@ axios.get(url)
         const htmlJson = tagToJson($('html').get(0));
         
         const htmlJsonString = JSON.stringify(htmlJson, null, 2);
-        res.status(2000).send(htmlJsonString);
+        res.status(200).send(htmlJsonString);
     })
     .catch(error => {
         res.status(400).send('Error fetching URL:', error);
