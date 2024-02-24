@@ -5,6 +5,6 @@ services:
     env: node
     buildCommand: yarn
     startCommand: node index.js
-    repo: https://github.com/Ravindu12123/MegaX    
+    repo: https://github.com/Ravindu12123/fetch   
     branch: main
     autoDeploy: false
